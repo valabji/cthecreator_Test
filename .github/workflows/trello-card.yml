@@ -10,7 +10,7 @@ jobs:
     name: Create Trello Card
     steps:
       - name: Call trello-github-actions
-        uses: cthecreator/Test@v1.1
+        uses: cthecreator/Test@v1.0
         with:
           action: issue_opened_create_card
         env:
